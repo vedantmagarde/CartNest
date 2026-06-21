@@ -922,6 +922,10 @@ footer {
     gap: 3.2rem;
   }
 
+  & .card > * {
+    margin: 0;
+  }
+
   & .productImage {
     width: 16rem;
   }

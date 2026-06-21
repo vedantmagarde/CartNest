@@ -38,7 +38,7 @@ const showCartProduct = () => {
         productClone.querySelector(".productQuantity").textContent =
             lSActualData.quantity;
         productClone.querySelector(".productPrice").textContent =
-            lSActualData.price;
+            `₹${Number(lSActualData.price).toFixed(2)}`;
 
         productClone
             .querySelector(".stockElement")
